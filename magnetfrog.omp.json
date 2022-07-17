@@ -1,0 +1,99 @@
+{
+    "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+    "blocks": [
+        {
+            "alignment": "left",
+            "segments": [
+                {
+                    "foreground": "#ef5250",
+                    "style": "plain",
+                    "template": " admin ",
+                    "type": "root"
+                },
+                {
+                    "background": "#ef5250",
+                    "foreground": "#0f0f0f",
+                    "leading_diamond": "\ue0b6",
+                    "style": "diamond",
+                    "template": " {{ .UserName }}@{{ .HostName }} ",
+                    "type": "session"
+                },
+                {
+                    "background": "#ffffff",
+                    "foreground": "#0f0f0f",
+                    "powerline_symbol": "\ue0b0",
+                    "properties": {
+                    "folder_icon": "\uf115",
+                    "folder_separator_icon": " \ue0b1 ",
+                    "style": "full"
+                    },
+                    "style": "powerline",
+                    "template": " {{ .Path }} ",
+                    "type": "path"
+                },
+                {
+                    "background": "#96d29f",
+                    "foreground": "#0f0f0f",
+                    "powerline_symbol": "\ue0b0",
+                    "style": "powerline",
+                    "template": " {{ .HEAD }} ",
+                    "type": "git"
+                },
+                {
+                    "foreground": "#96d29f",
+                    "foreground_templates": [
+                        "{{ if gt .Code 0 }}#ef5250{{ end }}"
+                    ],
+                    "style": "plain",
+                    "properties": {
+                        "always_enabled": true
+                    },
+                    "template": " {{ if gt .Code 0 }}\uf00d{{ else }}\uf00c{{ end }} ",
+                    "type": "exit"
+                }
+            ],
+            "type": "prompt"
+        },
+        {
+            "alignment": "right",
+            "segments": [
+                {
+                    "background": "#ffffff",
+                    "foreground": "#0f0f0f",
+                    "properties": {
+                        "always_enabled": true,
+                        "style": "roundrock",
+                        "threshold": 0
+                    },
+                    "leading_diamond": "\ue0b6",
+                    "style": "diamond",
+                    "template": " \uf252 {{ .FormattedMs }} ",
+                    "type": "executiontime"
+                },
+                {
+                    "background": "#ef5250",
+                    "foreground": "#0f0f0f",
+                    "style": "diamond",
+                    "trailing_diamond": "\ue0b4",
+                    "template": " \uf64f {{ .CurrentDate | date .Format }} ",
+                    "type": "time"
+                }
+            ],
+            "type": "prompt"
+        },
+        {
+            "alignment": "left",
+            "newline": true,
+            "segments": [
+                {
+                    "foreground": "#ffffff",
+                    "style": "plain",
+                    "template": " \u276f ",
+                    "type": "text"
+                }
+            ],
+            "type": "prompt"
+        }
+    ],
+    "version": 2
+}
