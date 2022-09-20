@@ -12,7 +12,7 @@
 
 # Step 1: Install Windows Terminal
 
-1. Navigate to the Microsoft Store on a computer with a Windows OS.
+1. Navigate to the `Microsoft Store` on a computer with a Windows OS.
 
 <p align="center" width="100%">
     <img src="img/figure-1-1.png">
@@ -26,7 +26,7 @@
 
 # Step 2: Install PowerShell
 
-1. Navigate to the Microsoft Store on a computer with a Windows OS.
+1. Navigate to the `Microsoft Store` on a computer with a Windows OS.
 
 <p align="center" width="100%">
     <img src="img/figure-2-1.png">
