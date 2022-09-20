@@ -293,7 +293,9 @@ Microsoft.PowerShell_profile.ps1`.
 1. Simply add the following line to the `VSCode` `User Settings (JSON)` `settings.json` file found at the file path `C:\Users\emaanr\AppData\Roaming\Code\User`.
 
     ```
-    "terminal.integrated.fontFamily": "CaskaydiaCove NF"
+    }
+        "terminal.integrated.fontFamily": "CaskaydiaCove NF"
+    }
     ```
 
 2. If successful, the `VScode` terminal should look like the following.
