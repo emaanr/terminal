@@ -1,8 +1,4 @@
 {
     "workbench.colorTheme": "Frantic Contrast (rainglow)",
-    "terminal.integrated.fontFamily": "CaskaydiaCove NF",
-    "remote.SSH.useFlock": false,
-    "remote.SSH.remotePlatform": {
-        "rlogin.cs.vt.edu": "linux"
-    }
+    "terminal.integrated.fontFamily": "CaskaydiaCove NF"
 }

@@ -289,3 +289,15 @@ Microsoft.PowerShell_profile.ps1`.
 
 > Optional:
 > - The Terminal is all set up now, but if you want `Oh My Posh` to show up in the VSCode Terminal as well, there are some additional configurations that can be made.
+
+1. Simply add the following line to the `VSCode` `User Settings (JSON)` `settings.json` file found at the file path `C:\Users\emaanr\AppData\Roaming\Code\User`.
+
+    ```
+    "terminal.integrated.fontFamily": "CaskaydiaCove NF"
+    ```
+
+2. If successful, the `VScode` terminal should look like the following.
+
+<p align="center" width="100%">
+    <img src="img/figure-9-1.png">
+</p>
