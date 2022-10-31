@@ -188,7 +188,7 @@
     <img src="img/figure-6-1.png">
 </p>
 
-2. Create a new `PowerShell` profile by inoking the following command in `Windows Terminal`.
+2. Create a new `PowerShell` profile by invoking the following command in `Windows Terminal`.
 
 <p align="center" width="100%">
     <img src="img/figure-6-2.png">
