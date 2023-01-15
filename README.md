@@ -1,5 +1,7 @@
 # Terminal
 
+    Instructions for how to customize terminal.
+
 # Table of Contents
 
 - [Terminal](#terminal)
@@ -50,7 +52,7 @@
     <img src="img/figure-3-1.png">
 </p>
 
-1. Navigate to `Settings`.
+2. Navigate to `Settings`.
 
 <p align="center" width="100%">
     <img title="Navigate to Settings" src="img/figure-3-2.png">
